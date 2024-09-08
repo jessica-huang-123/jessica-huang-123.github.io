@@ -336,30 +336,31 @@
 
        <h2 id="recipe">Upload a Recipe</h2>
        <form action="" method="post" class="recipe-form">
-           <label for="recipe_name">Recipe Name</label>
+           <label for="recipe_name">Recipe Name:</label>
            <input type="text" id="recipe_name" name="recipe_name" required>
            <br>
        
-           <label for="ingredients">Ingredients and Quantities</label>
+           <label for="ingredients">Ingredients and Quantities:</label>
            <textarea name="ingredients" id="ingredients" cols="30" rows="5" required></textarea>
            <br>
        
-           <label for="method">Method</label>
+           <label for="method">Method:</label>
            <textarea name="method" id="method" cols="30" rows="5" required></textarea>
            <br>
        
            <label for="image">Upload Image:</label>
            <select name="image" id="image" required>
+            <option value="device">Select Image</option>
                <option value="device">This Device</option>
                <option value="account">Your Account</option>
-               <option value="weblink">Web Link</option>
+               <option value="weblink">URL</option>
            </select>
            <br>
 
            <label for="region"> Cuisine:</label>
            <select name="region" id="region" required>
            <label for="region"> Cuisine:</label>
-           <option value="device"></option>
+           <option value="device"> Select Cuisine</option>
                <option value="device">Asia</option>
                <option value="account">Europe</option>
                <option value="weblink">North America</option>
@@ -371,9 +372,8 @@
 
            <label for="image">Time:</label>
            <select name="image" id="image" required>
-            <option value="device">Select Time</option>
-
-               <option value="device">Under 15 minutes</option>
+              <option value="device">Select Time</option>
+              <option value="device">Under 15 minutes</option>
                <option value="account">15-30 minutes</option>
                <option value="weblink">30-60 minutes</option>
                <option value="weblink">Over 60 minutes</option>
