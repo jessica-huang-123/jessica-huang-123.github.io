@@ -38,7 +38,7 @@
                 <label for="search">Search:</label>
                 <input type="text" id="search" name="search" placeholder="Enter recipe name, ingredient or username" required>
                 
-                <label for="world-region">World Region:</label>
+                <label for="world-region">Cuisine:</label>
                 <select id="world-region" name="world_region">
                     <option value="">Select Region</option>
                     <option value="asia">Asia</option>
@@ -77,7 +77,7 @@
   <article id="article1"> 
   <h2> Welcome Back</h2>
   <p>Five friends uploaded new recipes!</p>
-  <p>See what's trending in Asian cusines</p>
+  <p>See what's trending in Asian cuisines</p>
   <p>Two friends tried your cake recipe</p>
   </article>
 
@@ -356,19 +356,23 @@
            </select>
            <br>
 
-           <label for="region">World Region:</label>
+           <label for="region"> Cuisine:</label>
            <select name="region" id="region" required>
+           <label for="region"> Cuisine:</label>
+           <option value="device"></option>
                <option value="device">Asia</option>
                <option value="account">Europe</option>
-               <option value="weblink">South America</option>
-               <option value="device">North America</option>
-               <option value="account">Oceania</option>
-               <option value="weblink">Africa</option>
+               <option value="weblink">North America</option>
+               <option value="device">South America</option>
+               <option value="account">Africa</option>
+               <option value="weblink">Oceania</option>
            </select>
            <br>
 
            <label for="image">Time:</label>
            <select name="image" id="image" required>
+            <option value="device">Select Time</option>
+
                <option value="device">Under 15 minutes</option>
                <option value="account">15-30 minutes</option>
                <option value="weblink">30-60 minutes</option>
@@ -378,6 +382,7 @@
            
            <label for="dietary-requirements">Dietary Requirements:</label>
            <select name="dietary-requirements" id="dietary-requirements" required>
+            <option value="device">Select Dietary Requirements</option>
                <option value="device">Vegan</option>
                <option value="account">Vegetarian</option>
                <option value="weblink">Gluten-Free</option>
