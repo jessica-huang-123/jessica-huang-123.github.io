@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="webstyle.css">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The College Cookbook</title>
+</head>
+
+<body>
+
+  <header>
+    <h1>The College Cookbook</h1>
+        <nav> 
+            <ul id="toplist">
+                <li> <a href="">Breakfast</a></li>
+                <li> <a href="">Lunch</a></li>
+                <li> <a href="">Dinner</a></li>
+                <li> <a href="">Snacks</a></li>
+                <li> <a href="">Your Account</a></li>
+            </ul>
+        </nav>
+</header>
+
+      
+  <div class="container">
+    <!-- <aside class="left-sidebar"> -->
+        <!-- <h3>Dietary Requirements</h3> -->
+        <!-- Dietary Requirements Forms -->
+        <!-- ... existing forms here ... -->
+    <!-- </aside> -->
+
+    <main class="main-content">
+        <!-- Search Bar and Filters -->
+        <section class="search-section">
+            <h2>Search for Recipes</h2>
+            <form action="/search_results.php" method="get">
+                <label for="search">Search:</label>
+                <input type="text" id="search" name="search" placeholder="Enter recipe name, ingredient or username" required>
+                
+                <label for="world-region">World Region:</label>
+                <select id="world-region" name="world_region">
+                    <option value="">Select Region</option>
+                    <option value="asia">Asia</option>
+                    <option value="europe">Europe</option>
+                    <option value="north-america">North America</option>
+                    <option value="south-america">South America</option>
+                    <option value="africa">Africa</option>
+                    <option value="oceania">Oceania</option>
+                </select>
+
+                <label for="time-spent">Time:</label>
+                <select id="time-spent" name="time_spent">
+                    <option value="">Select Time</option>
+                    <option value="15">Under 15 minutes</option>
+                    <option value="30">15-30 minutes</option>
+                    <option value="60">30-60 minutes</option>
+                    <option value="120">Over 60 minutes</option>
+                </select>
+
+                <label for="dietary-requirements">Dietary Requirements:</label>
+                <select name="dietary-requirements" id="dietary-requirements" required>
+                  <option value="">Select Dietary Requirements</option>
+                    <option value="device">Vegan</option>
+                    <option value="account">Vegetarian</option>
+                    <option value="weblink">Gluten-Free</option>
+                    <option value="weblink">Dairy-Free</option>
+                </select>
+                <br>   
+
+                <input type="submit" value="Search">
+            </form>
+        </section>
+        
+
+<!-- <article> -->
+  <article id="article1"> 
+  <h2> Welcome Back</h2>
+  <p>5 friends uploaded new recipes!</p>
+  <p>See what's trending in Asian Cusines</p>
+  <p>Two friends tried your cake recipe</p>
+  </article>
+
+<!-- </article id="maincontent"> -->
+  <article id="article2"> 
+  <h2>Picked for you...</h2>
+  <div class="content-wrapper">
+    <div class="images-wrapper">
+      <img src="https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-52021_11-2e08f7b.jpg?quality=90&webp=true&resize=440,400" alt="Image of Cheesy Tomato Pasta">
+      <img src="https://images.immediate.co.uk/production/volatile/sites/30/2020/08/satay-sweet-potato-curry-17cc62d.jpg?quality=90&webp=true&resize=440,400" alt="Image of Sweet Potato Curry">
+      <img src= "https://images.immediate.co.uk/production/volatile/sites/30/2022/07/Vegetarian-ramen-0c0831e.jpg?quality=90&webp=true&resize=440,400"alt="Image of Sesame Ramen">
+    </div>
+    <div class="text-blocks">
+      <div class="block">
+    <!-- <article id="articlepick1"> -->
+      <h3>Cheesy Tomato Pasta</h3>
+      <br>
+      <p>Try this delicious tomato and cheese pasta dish. It’s filling, budget-friendly and ready in just 20 minutes!</p>
+      <p id=></p>
+      <br>
+      <h5>Uploaded by: cookwithme</h5>
+      <br>
+      <p> 377 users gave this recipe 5 stars</p>
+      <br>
+      <p> <cite> This dish is delicious and so easy to make! </cite></p>
+      <br>
+      <h4>Ingredients:</h4>
+      <br>
+            <p>
+        <ul id="toplist">
+          <li>1 onion, chopped</li>
+          <li>400g cherry tomatoes, fresh or canned</li>
+          <li>50g cheddar cheese, grated</li>
+          <li>100g pasta</li>
+          <li>1 tbsp olive oil</li>
+      </ul>
+      <br>
+<h4>Method:</h4>
+<br>
+      <ol>
+        <li>Heat the oil and fry the onion for 5 mins until lightly golden. Then, add the tomatoes and sugar and simmer for 15 mins. </li>
+        <li>Meanwhile, boil the pasta for 20 mins.</li>
+        <li>Drain the pasta and stir into the sauce. Finally, scatter the cheese over the dish. Serve!</li>
+      </ol>
+    
+      <!-- <img src="https://placebear.com/100/100" alt="Profile Picture showing bear"> -->
+    <!-- </article> -->
+    <!-- <article id="articlepick2" > -->
+    </div>
+    <div class="block">
+      <h3 id=>Sweet Potato Curry </h3>
+      <br>
+      <p>You won’t believe how easy it is to make this delicious sweet potato curry and it’s ready in 30 minutes! </p>
+      <br>
+      <h5>Uploaded by: chef065</h5>
+      <br>
+      <p> 375 users gave this recipe 5 stars</p>
+      <br>
+      <p> <cite>This is my favourite dish to make and I recommend this to everyone!</cite></p>
+      <br>
+      <h4>Ingredients:</h4>
+      <br>
+      <ul id="toplist">
+        <li>120g sweet potato, peeled and cut into chunks</li>
+        <li>100ml coconut milk</li>
+        <li>50g spinach</li>
+        <li>1 onion, chopped</li>
+        <li>1 garlic clove, chopped</li>
+        <li>1tbsp red curry paste</li>
+        <li>1 lime, juiced</li>
+        <li>Cooked rice to serve</li>
+    </ul>
+    <br>
+<h4>Method:</h4>
+<br>
+    <ol>
+      <li>Cook 1 tbsp coconut oil with onion and garlic for 2 mins. </li>
+      <li>Then, add red curry paste, sweet potato, coconut milk and 200ml water. Cook for 25 mins or until sweet potato is soft.</li>
+      <li>Finally, add spinach and lime juice and cook for 2 mins. Serve with cooked rice.</li>
+    </ol>
+      <!-- <img src="https://placebear.com/100/100" alt="Profile Picture showing bear"> -->
+    <!-- </article> -->
+    <!-- <article id="articlepick3"> -->
+    </div>
+    <div class="block">
+      <h3>Sesame Ramen</h3>
+      <br>
+  <p> Looking to cook something tasty but short on time? Look no further- this popular meal is ready in just 15 minutes!</p>
+  <br>
+  <h5>Uploaded by: ramenfan</h5>
+  <br>
+  <p> 394 users gave this recipe 5 stars</p>
+  <br>
+  <p><cite> Amazing! I love this dish!</cite></p>
+  <br>
+  <h4>Ingredients:</h4>
+  <br>
+  <ul id="toplist">
+    <li>100g noodles </li>
+    <li>2 spring onions, chopped</li>
+    <li>1 pak choi, chopped</li>
+    <li>1 egg</li>
+    <li>1 tsp sesame seeds </li>
+</ul>
+<br>
+<h4>Method:</h4>
+<br>
+<ol>
+  <li> Add noodles and pak choi to a pan and cook for 15 minutes. Add the spring onions for the final minute.</li>
+  <li>Meanwhile, boil the egg for 7 mins. </li>
+  <li>Toast the sesame seeds until golden.</li>
+  <li>Finally, add the noodles and greens into a bowl, halve the egg and place on top. Sprinkle with sesame seeds.</li>
+</ol>
+      <!-- <img src="https://placebear.com/100/100" alt="Profile Picture showing bear"> -->
+    </div>
+  </div>
+  </div>
+  </article>
+<!-- </article> -->
+
+      
+ 
+<!-- <h3>Dietary Requirements</h3> -->
+
+<!-- <form action="/action_page.php"> -->
+    <!-- <label for="Dietary Requirements">Select:</label> -->
+    <!-- <select id="Dietary Requirement" name="Dietary Requirement" size="4" multiple> -->
+      <!-- <option value="volvo">Volvo</option> -->
+      <!-- <option value="saab">Saab</option> -->
+      <!-- <option value="fiat">Fiat</option> -->
+      <!-- <option value="audi">Audi</option> -->
+    <!-- </select><br><br> -->
+    <!-- <input type="submit"> -->
+  <!-- </form> -->
+
+  <!-- <h3>Dietary Requirements</h3> -->
+
+<!-- <form action="/action_page.php"> -->
+    <!-- <label for="Dietary Requirements">Select:</label> -->
+    <!-- <select id="Dietary Requirement" name="Dietary Requirement" size="4" multiple> -->
+      <!-- <option value="volvo">Volvo</option> -->
+      <!-- <option value="saab">Saab</option> -->
+      <!-- <option value="fiat">Fiat</option> -->
+      <!-- <option value="audi">Audi</option> -->
+    <!-- </select><br><br> -->
+    <!-- <input type="submit"> -->
+  <!-- </form> -->
+
+  <!-- <h3>Dietary Requirements</h3> -->
+
+<!-- <form action="/action_page.php"> -->
+    <!-- <label for="Dietary Requirements">Select:</label> -->
+    <!-- <select id="Dietary Requirement" name="Dietary Requirement" size="4" multiple> -->
+      <!-- <option value="volvo">Volvo</option> -->
+      <!-- <option value="saab">Saab</option> -->
+      <!-- <option value="fiat">Fiat</option> -->
+      <!-- <option value="audi">Audi</option> -->
+    <!-- </select><br><br> -->
+    <!-- <input type="submit"> -->
+  <!-- </form> --> 
+
+
+  <h2 id="newsletter">Sign up to our weekly newsletter </h2>
+  <h4 id="descnews">Delicious recipes delivered to your inbox!</h4>
+         <form action=""  id="signupnews">
+         <label for="first_name">First name</label>
+         <input type="text" id="first_name" name="first_name" required>
+         <br>
+         <label for="last_name">Last name</label>
+         <input type="text" id="last_name" name="last_name" required>
+         <br>
+         <label for="email">Email</label>
+         <input type="email" name="email" id="email" required>
+         <br>
+         <label for="country">Country:</label>
+         <select name="country" id="country">
+
+            <option value="england">England</option>
+            <option value="scotland">Scotland</option>
+            <option value="wales">Wales</option>
+            <option value="northern ireland">Northern Ireland</option>
+         </select>
+         <br>
+         
+         <input type="submit">
+
+         <br>
+         <br>
+
+        </form>
+
+        <!-- <h2>Upload a recipe</h2>
+        <form action="">
+        <label for="Recipie Name">Recipe Name</label>
+        <input type="text" id="Recipie name" name="Recipie name" required>
+        <br>
+        <label for="Ingrediants and quantity">Ingredients and quantities</label>
+        <textarea name="Ingrediants and quantity" id="Ingrediants and quantity" cols="30" rows="5"></textarea>
+        <br>
+        <label for="Method">Method</label>
+        <textarea name="Method" id="Method" cols="30" rows="5"></textarea>
+        <br>
+        <label for="image"> Upload Image:</label>
+         <select name="image" id="image">
+
+            <option value="england">This device</option>
+            <option value="scotland">Your Account</option>
+            <option value="wales">Web link</option>
+         </select>
+         <br>
+        <label for="World Region">World Region:</label>
+         <input type="radio" name="World Region" id="Asia" value="Asia"> 
+         <label for="Asia">Asia</label>
+         <input type="radio" name="World Region" id="Europe" value="Europe"> 
+         <label for="Europe">Europe</label>
+         <input type="radio" name="World Region" id="North America" value="North America">
+         <label for= "North America">North America</label>
+
+         <input type="radio" name="World Region" id="South America" value="South America">
+         <label for= "South America">South America</label>
+
+         <input type="radio" name="World Region" id="Africa" value="Africa">
+         <label for= "Africa">Africa</label>
+
+         <input type="radio" name="World Region" id="Oceania" value="Oceania">
+         <label for= "Oceania">Oceania</label>
+
+         <br>
+         
+         <label for="Time">Time: </label>
+         <input type="radio" name="Time" id="Under 15 minutes" value="Under 15 minutes"> 
+         <label for="Under 15 minutes">Under 15 minutes</label>
+         <input type="radio" name="Time" id="15-30 minutes" value="15-30 minutes"> 
+         <label for="15-30 minutes">15-30 minutes</label>
+         <input type="radio" name="Time" id="30-60 minutes" value="30-60 minutes">
+         <label for= "30-60 minutes">30-60 minutes</label>
+         <input type="radio" name="Time" id="Over 60 minutes" value="Over 60 minutes">
+         <label for= "Over 60 minutes">Over 60 minutes</label>
+         <br>
+
+
+         <label for="Dietary Requirements">Dietary Requirements: </label>
+         <input type="radio" name="Dietary Requirements" id="Vegan" value="Vegan"> 
+         <label for="Vegan">Vegan</label>
+         <input type="radio" name="Dietary Requirements" id="Vegetarian" value="Vegetarian"> 
+         <label for="Vegetarian">Vegetarian</label>
+         <input type="radio" name="Dietary Requirements" id="Gluten-Free" value="Gluten-Free">
+         <label for= "Gluten-Free">Gluten-Free</label>
+         <input type="radio" name="Dietary Requirements" id="Dairy-Free" value="Dairy-Free">
+         <label for= "Dairy-Free">Dairy-Free</label>
+         <br>
+
+         <input type="submit">
+
+       </form> -->
+
+       <h2 id="recipe">Upload a Recipe</h2>
+       <form action="" method="post" class="recipe-form">
+           <label for="recipe_name">Recipe Name</label>
+           <input type="text" id="recipe_name" name="recipe_name" required>
+           <br>
+       
+           <label for="ingredients">Ingredients and Quantities</label>
+           <textarea name="ingredients" id="ingredients" cols="30" rows="5" required></textarea>
+           <br>
+       
+           <label for="method">Method</label>
+           <textarea name="method" id="method" cols="30" rows="5" required></textarea>
+           <br>
+       
+           <label for="image">Upload Image:</label>
+           <select name="image" id="image" required>
+               <option value="device">This Device</option>
+               <option value="account">Your Account</option>
+               <option value="weblink">Web Link</option>
+           </select>
+           <br>
+
+           <label for="region">World Region:</label>
+           <select name="region" id="region" required>
+               <option value="device">Asia</option>
+               <option value="account">Europe</option>
+               <option value="weblink">South America</option>
+               <option value="device">North America</option>
+               <option value="account">Oceania</option>
+               <option value="weblink">Africa</option>
+           </select>
+           <br>
+
+           <label for="image">Time:</label>
+           <select name="image" id="image" required>
+               <option value="device">Under 15 minutes</option>
+               <option value="account">15-30 minutes</option>
+               <option value="weblink">30-60 minutes</option>
+               <option value="weblink">Over 60 minutes</option>
+           </select>
+           <br>
+           
+           <label for="dietary-requirements">Dietary Requirements:</label>
+           <select name="dietary-requirements" id="dietary-requirements" required>
+               <option value="device">Vegan</option>
+               <option value="account">Vegetarian</option>
+               <option value="weblink">Gluten-Free</option>
+               <option value="weblink">Dairy-Free</option>
+           </select>
+           <br>   
+    
+           <input type="submit">
+       </form>
+       
+       <footer>
+        <h2>The College Cookbook</h2>
+        <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Our History</a></li>
+            <li><a href="#">Our Values</a></li>
+            <li><a href="#">Join Our Team</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+        </ul>
+    </footer>
