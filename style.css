@@ -19,8 +19,7 @@ body > header {
 body > header nav>ul {
   display: flex;
   list-style: none;
-  text-decoration: none;
-
+  /* text-decoration: underline; */
 }
 
 #article1{
